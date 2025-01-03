@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning </title>
+</head>
+<body>
+    <h1> Learn about how to append element in DOM </h1>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+
+</body>
+<script>
+    function addLanguage(langname){
+       const element =  document.createElement('li');
+       element.appendChild(document.createTextNode(langname))
+       document.querySelector('.language').appendChild(element)
+    }
+    addLanguage('typescript')
+</script>
+</html>
