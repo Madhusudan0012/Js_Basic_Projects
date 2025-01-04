@@ -36,7 +36,13 @@
     }, true) 
     document.getElementById('owl').addEventListener('click' , function(e){
         console.log("own clicked")
+        e.stopPropagation()
     }, true )
+    document.getElementById('google').addEventListener('click' , function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        console.log("Google ruk gya ")
+    }, false)
     
 </script>
 </html>
