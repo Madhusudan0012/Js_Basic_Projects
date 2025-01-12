@@ -21,4 +21,4 @@ Object.prototype.Madhusudan = function(){
 
 // heroPower.Madhusudan()
 
-myHeros.Madhusudan()
+myHeros.Madhusudan()    
